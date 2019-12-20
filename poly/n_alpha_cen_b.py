@@ -11,7 +11,7 @@ Ms, Rs, Ls = 1.98919e33, 6.9699e10, 3.846e33
 M, R, L = .934*Ms, .864*Rs, .47*Ls
 dM, dR, dL = .006 * Ms, .005*Rs, .02*Ls
 
-N = 600
+N = 300
 
 ns = np.zeros(N)
 x0 = np.array([M, R, L])
@@ -22,7 +22,7 @@ data = np.zeros((N, x0.size))
 for i in range(N):
     data[i, :] = x0 + dx*np.random.normal(x0.size)
     M, R, L = data[i, :]
-    ns[i] = poly.get_n(M, R, L, X, Z)
+    ns[i] = poly.get_n(M, R, L, X, Z, a = 2.4, b = 2.9)
 
 n_avg = np.mean(ns)
 n_sigma = np.sqrt( np.sum((ns - n_avg)**2) / (N - 1) )

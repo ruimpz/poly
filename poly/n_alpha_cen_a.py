@@ -4,7 +4,6 @@ import scipy.optimize as opt
 import matplotlib.pyplot as plt
 
 Ys, As = .27, .02857
-A = As + .22
 X = (1 - Ys) / (1 + A)
 Z = A * X
 Ms, Rs, Ls = 1.98919e33, 6.9699e10, 3.846e33

@@ -9,8 +9,7 @@ Zs = As * Xs
 Ms, Rs, Ls = 1.98919e33, 6.9699e10, 3.846e33
 dM, dR, dL = 5e-6 * Ms, 5e-5*Rs, 5e-4*Ls
 
-N = 1000
-
+N = 50
 ns = np.zeros(N)
 x0 = np.array([Ms, Rs, Ls])
 dx = np.array([dM, dR, dL])
@@ -28,5 +27,5 @@ n_sigma = np.sqrt( np.sum((ns - n_avg)**2) / (N - 1) )
 print("n = {} +- {}".format(n_avg, n_sigma))
 
 
-plt.hist(ns, bins=50, density=True)
-plt.show()
+plt.hist(ns, bins=100, density=True)
+plt.savefig("../figures/mc_sun_10k.pdf", dpi = 1000, transparent=True)

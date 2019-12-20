@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Numerical Implementation}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{ODE integration and boundary conditions}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Initial conditions and integration of first step}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Shooting method for polytropic index determination}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Sun - Example and code verification}{}% 6
+\BOOKMARK [1][-]{section.4}{Applications - The \040Centauri AB binary}{}% 7
+\BOOKMARK [1][-]{section.5}{Valid regime and alternative methods}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Alternative systems}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Valid regime}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Model pathologies and possible improvements}{}% 11
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 12

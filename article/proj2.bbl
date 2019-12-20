@@ -1,0 +1,19 @@
+\begin{thebibliography}{4}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Bruntt {et~al.}(2010)Bruntt, Bedding, Quirion, Lo~Curto, Carrier,
+  Smalley, Dall, Arentoft, Bazot, \& Butler}]{bruntt_accurate_2010}
+Bruntt, H., Bedding, T.~R., Quirion, P.-O., {et~al.} 2010, Monthly Notices of
+  the Royal Astronomical Society, 405, 1907
+
+\bibitem[{Kifonidis \& Müller(2012)}]{kifonidis_multigrid_2012}
+Kifonidis, K. \& Müller, E. 2012, Astronomy and Astrophysics, 544, 47
+
+\bibitem[{Monteiro \& Gameiro(2019)}]{monteiro_sebenta_2019}
+Monteiro, M.~J. \& Gameiro, J. 2019, Sebenta {UC} {Astronomia} {Computacional}
+
+\bibitem[{Takisa \& Maharaj(2013)}]{takisa_charged_2013}
+Takisa, P.~M. \& Maharaj, S.~D. 2013, General Relativity and Gravitation, 45,
+  1951, arXiv: 1310.0440
+
+\end{thebibliography}
