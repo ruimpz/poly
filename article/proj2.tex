@@ -131,23 +131,23 @@ average molecular weight in the star center. Additionally, the luminosity is giv
 
 \begin{equation}
   \label{eq:density}
-  \rho=\frac{3 M}{4 \pi R^{3}} \frac{\xi_{s}}{3\left(-\theta_{s}^{\prime}\right)} \theta^{n}
+  \rho=\frac{3 M}{4 \pi R^{3}} \frac{\xi_{s}}{3\left(-\dot{\theta_{s}}\right)} \theta^{n}
 \end{equation}
 \begin{equation}
   \label{eq:mass}
-  \frac{m}{M} = \left(\frac{\xi}{\xi_{s}}\right)^{2} \frac{\theta^{\prime}}{\theta_{s}^{\prime}}
+  \frac{m}{M} = \left(\frac{\xi}{\xi_{s}}\right)^{2} \frac{\dot{\theta}}{\dot{\theta_{s}}}}
 \end{equation}
 \begin{equation}
   \label{eq:pressure}
-  P=\frac{G M^{2}}{R^{4}} \frac{1}{4 \pi(n+1)\left(\theta_{S}^{\prime}\right)^{2}} \theta^{n+1}
+  P=\frac{G M^{2}}{R^{4}} \frac{1}{4 \pi(n+1)\left(\dot{\theta_{S}}}\right)^{2}} \theta^{n+1}
 \end{equation}
 \begin{equation}
   \label{eq:temperature}
-  T=\mu \frac{G M}{\mathscr{R} R} \frac{1}{(n+1) \xi_{s}\left(-\theta_{s}^{\prime}\right)} \theta 
+  T=\mu \frac{G M}{\mathscr{R} R} \frac{1}{(n+1) \xi_{s}\left(-\dot{\theta_{s}}}\right)} \theta 
 \end{equation}
 \begin{equation}
   \label{eq:luminosity}
-  L_{r}=\frac{1}{\xi_{s}^{2}\left(-\theta_{s}^{\prime}\right)} \int_{0}^{\xi} \xi^{2} \theta^{n} \varepsilon M \mathrm{d} \xi
+  L_{r}=\frac{1}{\xi_{s}^{2}\left(-\dot{theta_{s}}}\right)} \int_{0}^{\xi} \xi^{2} \theta^{n} \varepsilon M \mathrm{d} \xi
 \end{equation}
 
 Luminosity depends on the integral over $\xi$ of the emissivity. With a solution
@@ -219,9 +219,10 @@ Firstly we take advantage of well know data for the Sun to verify the fidelity o
 
 Our algorithm gives polytropic index $n = 3.197$ and normalized parameter
 curves $(P, \rho, T)$ as seen in figure \ref{fig:sun_params}. As for emissivity,
-we have the expected behavior of $\epsilon_{cno}$ dominance, and the
+we have the expected behavior of $\epsilon_{pp}$ dominance, and the
 luminosity curve (with respect to relative mass) (figures
-\ref{fig:sun_emissivity} and \ref{fig:sun_luminosity}).
+\ref{fig:sun_emissivity} and \ref{fig:sun_luminosity}). Only for more massive
+stars would on expect to see a relative increase of $\epsilon_{cno}$ increase.
 
 \begin{figure}
   \centering
@@ -255,12 +256,12 @@ $\delta n \approx 7 \times 10^{-7}$.
 
 \begin{equation}
   \label{eq:grav_poly_energy}
-  V = \frac{G M^{2}}{R} \frac{1}{\xi_{s}^{3} \theta_{s}^{\prime 2}} \int_{0}^{\xi_{s}} \xi^{3} \theta^{n} \dot{\theta} \mathrm{d} \xi
+  V = \frac{G M^{2}}{R} \frac{1}{\xi_{s}^{3} \dot{\theta_{s}}^2}} \int_{0}^{\xi_{s}} \xi^{3} \theta^{n} \dot{\theta} \mathrm{d} \xi
 \end{equation}
 
 \begin{equation}
   \label{eq:grav_test}
-  \delta n = 3 \xi_{S}^{3} \theta_{S}^{\prime 2} \frac{1}{\int_{0}^{\xi_{s}} \xi^{3} \theta^{n} \dot{\theta} \mathrm{d} \xi} + 5 - n
+  \delta n = 3 \xi_{S}^{3} \dot{\theta_{S}}^2} \frac{1}{\int_{0}^{\xi_{s}} \xi^{3} \theta^{n} \dot{\theta} \mathrm{d} \xi} + 5 - n
 \end{equation}
 
 As will be discussed in section \ref{sec:applications}, this error is smaller
